@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="icon" type="image/png" href="logo.png">
+        <title>War Machines</title>
+    </head>
+    <body>
+        <div class="w3-container w3-pale-green">
+            <h4>
+            <span id="openNav" class="w3-small w3-button" onclick="openMenu()">&#9776;</span>
+                Indian War Machines
+            </h4>
+        </div>
+
+        <div class="w3-sidebar w3-bar-block w3-border" id="sideBAR" style="width:20%; display:none;">
+            <button class="w3-bar-item w3-button w3-right-align" onclick="closeMenu()">&times;</button>
+            <a href="navy.html" class="w3-bar-item w3-button">Air Force</a>
+            <a href="index.html" class="w3-bar-item w3-button">Navy</a>
+        </div>
+
+        <!-- 1 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="Sukoi.jpg" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b>Sukhoi Su-30MKI</b><br>The Sukhoi Su-30MKI is a two-seater, twinjet multirole air superiority fighter developed by Russian aircraft manufacturer Sukhoi and built under licence 
+                    by India's Hindustan Aeronautics Limited for the Indian Air Force. A variant of the Sukhoi Su-30, it is a heavy, all-weather, long-range fighter</p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="Rafale.jpg" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b>Dassault Rafale</b><br>The Dassault Rafale is a French twin-engine, canard delta wing, multirole fighter aircraft designed and built by Dassault Aviation</p>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="Chinook.jpg" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b> CH-47 Chinook</b><br>The Boeing CH-47 Chinook is a tandem-rotor helicopter originally developed by American rotorcraft company Vertol and now manufactured by Boeing Defense, Space & Security.
+                     The Chinook is a heavy-lift helicopter that is among the heaviest lifting Western helicopters</p>
+            </div>
+        </div>
+
+        <script>
+            function openMenu() {
+                console.log("open");
+                document.getElementById('sideBAR').style.display = 'block';
+            }
+            function closeMenu() {
+                console.log("close");
+                document.getElementById('sideBAR').style.display = 'none';
+            }
+        </script>
+    </body>
+</html>

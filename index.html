@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="w3.css">
+
+        <title>War Machines</title>
+    </head>
+    <body>
+        <div class="w3-container w3-pale-green">
+            <h4>
+            <span id="openNav" class="w3-small w3-button" onclick="openMenu()">&#9776;</span>
+                Indian War Machines
+            </h4>
+        </div>
+
+        <div class="w3-sidebar w3-bar-block w3-border" id="sideBAR" style="width:30%; display:none;">
+            <button class="w3-bar-item w3-button w3-right-align" onclick="closeMenu()">&times;</button>
+            <a href="navy.html" class="w3-bar-item w3-button">Air Force</a>
+            <a href="index.html" class="w3-bar-item w3-button">Navy</a>
+        </div>
+
+        <!-- 1 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="INSVikrant.png" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b>INS Vikranth</b><br>INS Vikrant is an aircraft carrier in service with Indian Navy. The carrier is India's fourth carrier and the first to be built in India. 
+                    It was constructed by the Cochin Shipyard Limited in Kochi, Kerala.</p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="INSKolkata.jpg" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b>INS Kolkata</b><br>INS Kolkata is the lead ship of the Kolkata-class stealth guided-missile destroyers of the Indian Navy. Named after the Indian city of Kolkata,
+                     she was constructed at Mazagon Dock Limited and was handed over to the navy on 10 July 2014 after completing her sea trials</p>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="w3-row w3-border w3-margin">
+            <div class="w3-container w3-col s6 m5 l4 w3-padding">
+                <img class="w3-image" src="INSKalvari.avif" alt="" width="800">
+            </div>
+            <div class="w3-container w3-col s6 m7 l8">
+                <p><b>INS Kalvari</b><br>INS Kalvari (S21) is the first of the six indigenous Scorpène-class submarines currently in service with the Indian Navy. It is a diesel-electric attack
+                     submarine which is designed by DCNS and was manufactured at Mazagon Dock Limited in Mumbai.</p>
+            </div>
+        </div>
+
+        <script>
+            function openMenu() {
+                console.log("open");
+                document.getElementById('sideBAR').style.display = 'block';
+            }
+            function closeMenu() {
+                console.log("close");
+                document.getElementById('sideBAR').style.display = 'none';
+            }
+        </script>
+    </body>
+</html>
